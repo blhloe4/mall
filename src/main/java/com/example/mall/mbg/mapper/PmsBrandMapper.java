@@ -6,7 +6,6 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.web.bind.annotation.Mapping;
 @Mapper
 public interface PmsBrandMapper {
     int countByExample(PmsBrandExample example);
